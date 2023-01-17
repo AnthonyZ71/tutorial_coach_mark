@@ -279,7 +279,6 @@ class AnimatedStaticFocusLightState extends AnimatedFocusLightState {
 
     _controller.forward();
     _controller.duration = _targetFocus.unFocusAnimationDuration ??
-        _targetFocus.focusAnimationDuration ??
         widget.unFocusAnimationDuration ??
         widget.focusAnimationDuration ??
         defaultFocusAnimationDuration;
@@ -424,7 +423,6 @@ class AnimatedPulseFocusLightState extends AnimatedFocusLightState {
 
     _controller.forward();
     _controller.duration = _targetFocus.unFocusAnimationDuration ??
-        _targetFocus.focusAnimationDuration ??
         widget.unFocusAnimationDuration ??
         widget.focusAnimationDuration ??
         defaultFocusAnimationDuration;
